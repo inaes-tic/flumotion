@@ -5,7 +5,8 @@
                base="flumotion/component/producers/pipeline"
                _description="A generic GStreamer pipeline converter.">
       <source location="flumotion.component.producers.pipeline.pipeline" />
-      <feeder name="default" />
+      <feeder name="audio" />
+      <feeder name="video" />
       <entries>
         <entry type="component" location="pipeline.py"
                function="Producer" />
